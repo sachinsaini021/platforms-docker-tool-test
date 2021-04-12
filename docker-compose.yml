@@ -1,0 +1,5 @@
+services:
+  application-configuration-api:
+    build: application-configuration-api
+    ports:
+      - "6161:8080"
